@@ -1,6 +1,9 @@
 # Smartphone sensors
 
+## Goal of this package
 
+The goal is to use your smartphone as "sensor" into RTMaps studio, and retrieve accelerometer and GPS data.
+This is nice to perform quick demos and small projects with RTMaps.
 
 ## Getting started
 
