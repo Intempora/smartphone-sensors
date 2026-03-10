@@ -10,6 +10,7 @@ This is nice to perform quick demos and small projects with RTMaps.
 On your Android phone, download the SensorServer app : https://github.com/umer0586/SensorServer
 Other possibility, you can use the APK on this git to sideload this application.
 If you plan to use the GPS, make sure to activate the authorization on your phone to use the localisation. This is not enabled by default.
+You need to install the **websocket-client** python library, and not the websocket.
 
 ## PythonBridge component
  
