@@ -8,9 +8,13 @@ This is nice to perform quick demos and small projects with RTMaps.
 ## Getting started
 
 On your Android phone, download the SensorServer app : https://github.com/umer0586/SensorServer
-Other possibility, you can use the APK on this git to sideload this application.
+Other possibility, you can use the APK on this git to sideload this application. Beware, it is outdated. :)
 If you plan to use the GPS, make sure to activate the authorization on your phone to use the localisation. This is not enabled by default.
-You need to install the **websocket-client** python library, and not the websocket.
+
+## Dependencies
+
+You need to install the **websocket-client** python library in python3, and not the websocket.
+You should create a python virtual environment, this is good pratice, but not mandatory.
 
 ## PythonBridge component
  
@@ -18,7 +22,7 @@ You need to install the **websocket-client** python library, and not the websock
  PythonBridge version required is 4.4.3 minimum. Please update your package using "Check For Updates" in RTMaps studio.
 
  Parameters used:
- - IP : IP address of your phone
+ - IP : IP address of your phone. It is shown in the SensorServer app directly.
  - port : 8080 by default, but you can change it on the android application and PythonBridge property
 
 ## Remarks
